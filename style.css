@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*!
+Theme Name: Soluby
+Theme URI: http://soluby.trycia.devwebgarneau.com
+Author: Trycia Thibodeau
+Author URI: http://soluby.trycia.devwebgarneau.com
+Description: Création de plugin
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+*/
+
+html {
+    background: #5433ff;
+    background: -webkit-linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+}
+
+.container {
+    margin-right: 125px;
+    margin-left: 125px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+}
