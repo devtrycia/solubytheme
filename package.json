@@ -1,0 +1,13 @@
+{
+  "name": "soluby-theme",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "SLY",
+  "scripts": {
+    "style": "node-sass /scss/styles.scss style.css"
+  },
+  "dependencies": {
+    "composer": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
