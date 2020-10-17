@@ -14,7 +14,8 @@ namespace App;
 
      public function solubytheme_scripts()
      {
-        wp_enqueue_style('style-soluby', get_template_directory_uri() . '/style.css');
+ 
+        // wp_enqueue_style('style-soluby', get_template_directory_uri() . '/style.css');
          wp_style_add_data('_solubytheme-style', 'rtl', 'replace');
          wp_deregister_script('jquery');
          wp_register_script('jquery', 'http://code.jquery.com/jquery-3.5.1.js');

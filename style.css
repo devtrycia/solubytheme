@@ -226,8 +226,6 @@ button.hero.hero:hover {
 .flex-article {
 	padding: 20px;
 	margin: 20px;
-	justify-content: center;
-	align-items: flex-start;
 }
 
 h4.title-blog {
@@ -523,6 +521,76 @@ article.flex-info {
 
 .flex-info:hover {
 	background-color: #F5F5F5;
+}
+
+.plugin {
+	background-color: azure;
+	color: #8F8F8F;
+	font-size: 21px;
+}
+
+section.container > .flex-messages {
+	margin-top: -150px;
+}
+
+section.flex-messages {
+	width: 100%;
+}
+
+article.flex-messages {
+	background-color: #1AD3B2;
+	min-width: 100%;
+	color: white;
+	font-family: "Open sans";
+	font-size: 18px;
+	margin: 10px;
+	padding: 25px;
+	height: max-content;
+	border-radius: 25px;
+	white-space: pre-line;
+}
+
+.flex-messages h4 {
+	font-family: "Open sans";
+	font-size: 14px;
+	margin: 10px;
+	color: #8F8F8F;
+	font-weight: lighter;
+}
+
+.form {
+	width: 100%;
+	border-radius: 25px;
+}
+
+.form textarea {
+	width: 100%;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: 0 0 1rem #c0c0c0;
+	border-color: #F5F5F5;
+}
+
+.form ::placeholder {
+	font-family: "Open sans";
+	font-size: 18px;
+	margin: 10px;
+	font-weight: bold;
+	opacity: 35%;
+	padding: 10px;
+}
+
+.form input {
+	color: #8F8F8F;
+	font-family: "Open sans";
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0 0 1rem #c0c0c0;
+	padding: 10px;
+	border-radius: 25px;
+	border: solid 1px #F5F5F5;
+	width: 20%;
+	background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+.plugin {
+    background-color: azure;
+    color: $gray;
+    font-size: 21px;
+}
+
+section.container>.flex-messages {
+    margin-top: -150px;
+}
+
+section.flex-messages {
+    width: 100%;
+    
+}
+
+
+article.flex-messages {
+    background-color: $green;
+    min-width: 100%;
+    color: white;
+    font-family: $open-slab;
+    font-size: 18px;
+    margin: 10px;
+    padding: 25px;
+    height: max-content;
+    border-radius: 25px;
+    white-space: pre-line;
+
+}
+
+.flex-messages h4 {
+    font-family: $open-slab;
+    font-size: 14px;
+    margin: 10px;
+    color: $gray;
+    font-weight: lighter;
+}
+
+
+.form {
+    width: 100%;
+    border-radius: 25px;
+
+    textarea {
+        width: 100%;
+        border-radius: 25px;
+        padding: 10px;
+        box-shadow: (0 0 1rem #c0c0c0);
+        border-color: $flat-light;
+    }
+
+    ::placeholder {
+        font-family: $open-slab;
+        font-size: 18px;
+        margin: 10px;
+        font-weight: bold;
+        opacity: 35%;
+        padding: 10px;
+    }
+
+    input {
+        color: $gray;
+        font-family: $open-slab;
+        font-size: 18px;
+        font-weight: bold;
+        box-shadow: (0 0 1rem #c0c0c0);
+        padding: 10px;
+        border-radius: 25px;
+        border: solid 1px $flat-light;
+        width: 20%;
+        background-color: white;
+
+    }
+}
