@@ -19,7 +19,7 @@
 
     <section class="entry-content padding__post">
         <?php
-        the_content();
+        // the_content();
 
         wp_link_pages(
             array(
