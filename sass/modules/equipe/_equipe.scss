@@ -1,26 +1,29 @@
 section.presentation {
+    padding: 2%;
     width: 33.33%;
     flex-basis: auto;
 
     p {
         text-align: justify;
-        width: 75%;
+        width: 100%;
         margin-top: 0px;
     }
 
     img {
-        margin-bottom: 50px;
+        margin-bottom: 5%;
     }
 }
 
 .present-title {
+    padding: 2%;
+
     h2 {
         margin-top: 60px;
         color: $pink;
     }
 
     p {
-        width: 95%;
+        width: auto;
         margin-top: 25px;
     }
 }

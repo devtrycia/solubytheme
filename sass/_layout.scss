@@ -2,9 +2,7 @@
     padding: 5%;
     margin: auto;
     display: flex;
-    flex-wrap: row wrap;
     width: 80%;
-    max-width: 80%;
 }
 
 .fluid-container {
@@ -16,10 +14,14 @@
 }
 
 .flex-article {
+    padding: 20px;
     margin: 20px;
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+
+//BLOG A REPLACER
 
 h4.title-blog {
     color: $black;
@@ -29,11 +31,23 @@ h4.title-blog {
     width: 100%;
 }
 
+ul.post-categories {
+    margin: revert;
+
+    a {
+        color: $pink;
+        text-emphasis: none;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 10px;
+    }
+}
+
 label a {
     padding: 10px;
     border: solid 1px $pink;
     border-radius: 25px;
-    height: 30px;
+    height: 20px;
     width: max-content;
 }
 

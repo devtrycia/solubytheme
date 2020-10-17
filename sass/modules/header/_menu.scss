@@ -4,6 +4,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+
     & a,
     ul,
     li {
@@ -11,6 +12,8 @@
         justify-content: center;
         padding-right: 50px;
         padding-left: 50px;
+        height: 40px;
+        align-items: center;
 
         & a,
         a:visited {
@@ -20,8 +23,8 @@
 
             &:hover,
             :active {
-               width: fit-content;
-                transition: 0.3s;
+                width: fit-content;
+                transition: 5ms;
                 background-color: $blue;
                 color: $white;
                 border-radius: 25px;

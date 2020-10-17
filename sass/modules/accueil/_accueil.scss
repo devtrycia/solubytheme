@@ -2,60 +2,29 @@
     font-weight: bold;
     margin-top: 250px;
     width: 75%;
+
     & h1 {
         font-size: 65px;
         background: -webkit-linear-gradient(#142664, #00e6b3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
     p {
         margin-top: 1em;
         font-size: 20px;
         color: $black;
         width: 75%;
     }
+
     img {
-        width: 100%;
         margin-top: -100px;
     }
 }
 
-// NEWSLETTERS //
-
-#newsletter {
-    background-color: $blue;
-    padding: 5em;
-    color: white;
-    width: 100%;
-
-    h2 {
-        color: white;
-    }
-}
-
-.input > input {
-    width: 40%;
-    height: 45px;
-    background-color: white;
-    border-radius: 25px;
-    border-color: white;
-    border: none;
-    &::placeholder {
-        color: $blue;
-        padding: 1em;
-        font-size: 18px;
-        font-weight: bold;
-        opacity: 60%;
-    }
-    // :active {
-    //        border-color: $pink;
-    //     }
-    }
-
-
 //Plugin info//
 
-article {
+article.flex-info {
     display: flex;
 }
 

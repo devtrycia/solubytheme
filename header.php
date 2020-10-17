@@ -14,6 +14,7 @@
 </head>
 <body>
     <header>
+
             <!-- <nav class="nav"> -->
                 <!-- <a class="nav--items" href="index.php">ACCUEIL</a>
                 <a class="nav--items" href="#">LE PLUGIN</a>
@@ -29,3 +30,4 @@
                             ?> 
                             <!-- </nav>  -->
             </header>
+

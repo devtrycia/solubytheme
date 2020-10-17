@@ -212,9 +212,7 @@ button.hero.hero:hover {
 	padding: 5%;
 	margin: auto;
 	display: flex;
-	flex-wrap: row wrap;
 	width: 80%;
-	max-width: 80%;
 }
 
 .fluid-container {
@@ -226,9 +224,10 @@ button.hero.hero:hover {
 }
 
 .flex-article {
+	padding: 20px;
 	margin: 20px;
-	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 h4.title-blog {
@@ -239,11 +238,23 @@ h4.title-blog {
 	width: 100%;
 }
 
+ul.post-categories {
+	margin: revert;
+}
+
+ul.post-categories a {
+	color: #FF2E93;
+	text-emphasis: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10px;
+}
+
 label a {
 	padding: 10px;
 	border: solid 1px #FF2E93;
 	border-radius: 25px;
-	height: 30px;
+	height: 20px;
 	width: max-content;
 }
 
@@ -293,19 +304,52 @@ h2 {
 	color: #FF2E93;
 }
 
+#newsletter {
+	background-color: #142664;
+	padding: 5em;
+	color: white;
+	width: 100%;
+}
+
+#newsletter h2 {
+	color: white;
+}
+
+.input > input {
+	width: 40%;
+	height: 45px;
+	background-color: white;
+	border-radius: 25px;
+	border-color: white;
+	border: none;
+}
+
+.input > input::placeholder {
+	color: #142664;
+	padding: 1em;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: 60%;
+}
+
 section.presentation {
+	padding: 2%;
 	width: 33.33%;
 	flex-basis: auto;
 }
 
 section.presentation p {
 	text-align: justify;
-	width: 75%;
+	width: 100%;
 	margin-top: 0px;
 }
 
 section.presentation img {
-	margin-bottom: 50px;
+	margin-bottom: 5%;
+}
+
+.present-title {
+	padding: 2%;
 }
 
 .present-title h2 {
@@ -314,7 +358,7 @@ section.presentation img {
 }
 
 .present-title p {
-	width: 95%;
+	width: auto;
 	margin-top: 25px;
 }
 
@@ -323,6 +367,28 @@ section.presentation img {
 	background-color: #F5F5F5;
 	flex-direction: row;
 	height: 456px;
+}
+
+.footer .hr {
+	height: 273px;
+	margin-left: 50px;
+}
+
+.footer .h4 {
+	color: #FF2E93;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.footer .icon {
+	margin-top: 25px;
+}
+
+.footer .copy {
+	width: 50%;
+	margin-left: 50px;
+	margin-top: 55px;
+	font-size: 12px;
 }
 
 #contact-us {
@@ -361,28 +427,6 @@ section.presentation img {
 	color: #142664;
 }
 
-.hr {
-	height: 273px;
-	margin-left: 50px;
-}
-
-.h4 {
-	color: #FF2E93;
-	font-weight: bold;
-	font-size: 36px;
-}
-
-.icon {
-	margin-top: 25px;
-}
-
-.copy {
-	width: 50%;
-	margin-left: 50px;
-	margin-top: 55px;
-	font-size: 12px;
-}
-
 .menu-primaire-menu-container {
 	margin-top: 50px;
 	color: #142664;
@@ -398,6 +442,8 @@ section.presentation img {
 	justify-content: center;
 	padding-right: 50px;
 	padding-left: 50px;
+	height: 40px;
+	align-items: center;
 }
 
 .menu-primaire-menu-container a a,
@@ -424,7 +470,7 @@ section.presentation img {
 .menu-primaire-menu-container li a:visited:hover,
 .menu-primaire-menu-container li a:visited :active {
 	width: fit-content;
-	transition: 0.3s;
+	transition: 5ms;
 	background-color: #142664;
 	color: white;
 	border-radius: 25px;
@@ -451,39 +497,10 @@ section.presentation img {
 }
 
 #hero img {
-	width: 100%;
 	margin-top: -100px;
 }
 
-#newsletter {
-	background-color: #142664;
-	padding: 5em;
-	color: white;
-	width: 100%;
-}
-
-#newsletter h2 {
-	color: white;
-}
-
-.input > input {
-	width: 40%;
-	height: 45px;
-	background-color: white;
-	border-radius: 25px;
-	border-color: white;
-	border: none;
-}
-
-.input > input::placeholder {
-	color: #142664;
-	padding: 1em;
-	font-size: 18px;
-	font-weight: bold;
-	opacity: 60%;
-}
-
-article {
+article.flex-info {
 	display: flex;
 }
 

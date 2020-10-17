@@ -18,22 +18,18 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu accumsan volutpat.
             </p>
-
         </article>
-
         <article class="flex-info">
             <img src="/wp-content/themes/solubytheme/img/cyborg_info4.png" alt="info1">
-
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis ut sem et at vitae aliquam tellus
                 scelerisque.
             </p>
-
         </article>
     </section>
     <section class="flex-info first">
         <h2>
-            Le meilleur produits
+            Le meilleur produit
         </h2>
         <br>
         <p>
@@ -49,6 +45,5 @@
             sit amet cras. Vitae ornare pellentesque lobortis vitae congue commodo, etiam elementum. Est ac vitae
             ipsum at et mauris leo diam. Platea porttitor facilisis eu id gravida vitae non dignissim tempor.
         </p>
-
     </section>
 </section>

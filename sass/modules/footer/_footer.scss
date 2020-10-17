@@ -3,10 +3,34 @@
     background-color: $flat-light;
     flex-direction: row;
     height: 456px;
+
+    .hr {
+        height: 273px;
+        margin-left: 50px;
+    }
+
+    .h4 {
+        color: $pink;
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .icon {
+        margin-top: 25px;
+    }
+
+    .copy {
+        width: 50%;
+        margin-left: 50px;
+        margin-top: 55px;
+        font-size: 12px;
+    }
+
 }
 
 #contact-us {
     text-align: right;
+
 }
 
 #contact-menu {
@@ -31,26 +55,4 @@
             }
         }
     }
-}
-
-.hr {
-    height: 273px;
-    margin-left: 50px;
-}
-
-.h4 {
-    color: $pink;
-    font-weight: bold;
-    font-size: 36px;
-}
-
-.icon {
-    margin-top: 25px;
-}
-
-.copy {
-    width: 50%;
-    margin-left: 50px;
-    margin-top: 55px;
-    font-size: 12px;
 }
