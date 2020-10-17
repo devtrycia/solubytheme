@@ -1,10 +1,11 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
 
-add_action( 
-	'wp_enqueue_scripts', 
-	'wpshout_enqueue_styles' 
-);
+use App\Init;
 
-add_action('wp_enqueue_scripts', 'enqueue_style_solubytheme');function enqueue_styles_solubytheme() {
-        wp_enqueue_style('style-solubytheme', get_template_directory_uri() . '/style.csss');
-}
+require get_template_directory() . '/inc/apparence.php';
+require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/inc/template-functions.php';
+
+
+new Init();

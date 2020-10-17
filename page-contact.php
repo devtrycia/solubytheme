@@ -1,3 +1,4 @@
+<!-- Page de contact -->
 <?php
 
 get_header();

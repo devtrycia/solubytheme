@@ -1,0 +1,26 @@
+section.presentation {
+    width: 33.33%;
+    flex-basis: auto;
+
+    p {
+        text-align: justify;
+        width: 75%;
+        margin-top: 0px;
+    }
+
+    img {
+        margin-bottom: 50px;
+    }
+}
+
+.present-title {
+    h2 {
+        margin-top: 60px;
+        color: $pink;
+    }
+
+    p {
+        width: 95%;
+        margin-top: 25px;
+    }
+}

@@ -1,108 +1,69 @@
 body {
     font-family: $open-slab;
-    font-size: $base-size;
+    color: $black;
 }
 
-.h1 {
+h1 {
     font-family: $rakkas-slab;
     font-size: $h1;
+    font-weight: bold;
 }
 
-.h2 {
+h2 {
     font-family: $rakkas-slab;
     font-size: $h2;
+    font-weight: bold;
+    color: $green;
 }
 
-.h3 {
+h3 {
     font-family: $open-slab;
     font-size: $h3;
 }
 
-a {
-    color: $links;
-
-    &:hover {
-        color: $links;
-        background-color: $blue;
-        border-color: $blue;
-        border-radius: 25px;
-    }
-}
-
 button {
-    padding: 10px;
-    background-color: none;
-    border: 1px;
+    background-color: white;
+    color: white;
+    border: 2px solid $green;
     border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    color: $green;
+    margin-top: 1em;
+    font-family: $open-slab;
+    font-size: 20px;
 
-    &:hover {
-        padding: 10px;
-        background-color: none;
-        border: 1px;
-        border-radius: 25px;
-    }
-
-    &.green {
-        background-color: $green;
-    }
-
-    &.pink {
-        background-color: $pink;
-    }
-
-    &.tag {
-        font-size: $mini-base;
-        color: $pink;
+    &.news {
         border-color: $pink;
+        color: $pink;
+        background-color: transparent;
+
+        &.news:hover {
+            background-color: $pink;
+            color: $blue;
+            transition: 0.5s;
+        }
+    }
+
+    &.contact {
+        box-shadow: (0 0 1rem #c0c0c0);
+        font-weight: bold;
+
+        &.contact:hover {
+            background-color: $pink;
+            color: $white;
+            transition: 0.5s;
+        }
+    }
+
+    &.hero {
+        font-weight: bold;
+
+        &.hero:hover {
+            background-color: $green;
+            color: white;
+            transition: 0.5s;
+        }
     }
 }
 
-
-// input {
-//     background-color: lighten(gray, 25%);
-//     border: 1px solid darken($gray, 25%);
-//     border-radius: 5px;
-//     padding: 5px;
-//     color: white;
-
-//     &.is-double {
-//         width: 50%;
-//     }
-// }
-
-.pull-left {
-    float: left;
-}
-
-.pull-right {
-    float: right;
-}
-
-
-//IMG
-
-img {
-    display: flex;
-    object-fit: cover;
-
-    &:hover {
-        background: $pink;
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: flex;
-    }
-}
-
-
-//Media
-
-@media all and (min-width: 1000px) {
-    .h1 {
-        font-size: 4rem;
-    }
-
-    .h2 {
-        font-size: 3rem;
-    }
-}

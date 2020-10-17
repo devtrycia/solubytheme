@@ -1,0 +1,56 @@
+.footer {
+    color: $blue;
+    background-color: $flat-light;
+    flex-direction: row;
+    height: 456px;
+}
+
+#contact-us {
+    text-align: right;
+}
+
+#contact-menu {
+    text-align: left;
+    margin-left: 50px;
+
+    & ul,
+    li {
+        font-weight: bold;
+        text-decoration: none;
+        margin-bottom: 25px;
+
+        & a,
+        a:visited {
+            color: $blue;
+            text-decoration: none;
+            text-emphasis: none;
+
+            &:hover,
+            :active {
+                color: $blue;
+            }
+        }
+    }
+}
+
+.hr {
+    height: 273px;
+    margin-left: 50px;
+}
+
+.h4 {
+    color: $pink;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.icon {
+    margin-top: 25px;
+}
+
+.copy {
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 55px;
+    font-size: 12px;
+}

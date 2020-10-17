@@ -1,47 +1,31 @@
-.nav {
+.menu-primaire-menu-container {
+    margin-top: 50px;
+    color: $blue;
     font-weight: bold;
-    background-color: $white;
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: flex-start;
-    padding-bottom: 100px;
-    text-align: center;
-
-    &--item {
-        color: $blue;
-        display: block;
-        padding: 25px;
-        text-decoration: none;
-
-        &:hover {
-            background-color: $blue;
-            color: $links;
-        }
-
-        &.is-active {
-            background-color: $blue;
-            color: $links;
-            display: block;
-            border-radius: 25px;
-            border-color: $blue;
-        }
-    }
-}
-
-@media (max-width: 999px) {
-    .nav {
+    text-transform: uppercase;
+    text-decoration: none;
+    & a,
+    ul,
+    li {
         display: flex;
-        flex-flow: column wrap;
-        align-content: center;
-        background-color: $gray;
+        justify-content: center;
+        padding-right: 50px;
+        padding-left: 50px;
 
-        &--item {
-            font-size: $links-size;
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: bold;
-            padding: 10px 0;
+        & a,
+        a:visited {
+            color: $blue;
+            text-decoration: none;
+            text-emphasis: none;
+
+            &:hover,
+            :active {
+               width: fit-content;
+                transition: 0.3s;
+                background-color: $blue;
+                color: $white;
+                border-radius: 25px;
+            }
         }
     }
 }
